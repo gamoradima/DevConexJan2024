@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/ConexBase/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/ConexBase/Data/**" />
+		<Compile Remove="$(PkgPath)/ConexBase/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/ConexBase/Schemas\**" />
+		<Compile Remove="$(PkgPath)/ConexBase/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ConexBase/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ConexBase/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ConexBase/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ConexBase/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ConexBase/Resources/**" />
+		<None Remove="$(PkgPath)/ConexBase/Assemblies/**" />
+		<None Remove="$(PkgPath)/ConexBase/Data/**" />
+		<None Remove="$(PkgPath)/ConexBase/SqlScripts/**" />
+		<None Remove="$(PkgPath)/ConexBase/Schemas/**" />
+		<None Remove="$(PkgPath)/ConexBase/Resources/**" />
+  </ItemGroup>
+</Project>
