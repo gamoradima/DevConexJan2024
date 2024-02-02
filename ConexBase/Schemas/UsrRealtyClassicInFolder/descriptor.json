@@ -8,6 +8,7 @@
       "Name": "BaseItemInFolder"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Realty ClassicUI in Folder"
+    "Caption": "Realty ClassicUI in Folder",
+    "DependsOn": []
   }
 }
