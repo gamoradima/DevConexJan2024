@@ -8,5 +8,6 @@
 		<Compile Include="$(PkgPath)/ConexBase/Schemas/UsrRealtyOfferTypeClassic/UsrRealtyOfferTypeClassic.cs" Condition="Exists('$(PkgPath)/ConexBase/Schemas/UsrRealtyOfferTypeClassic/UsrRealtyOfferTypeClassic.cs')" />
 		<Compile Include="$(PkgPath)/ConexBase/Schemas/UsrRealtyClassicFile/UsrRealtyClassicFile.cs" Condition="Exists('$(PkgPath)/ConexBase/Schemas/UsrRealtyClassicFile/UsrRealtyClassicFile.cs')" />
 		<Compile Include="$(PkgPath)/ConexBase/Schemas/UsrRealtyClassicTag/UsrRealtyClassicTag.cs" Condition="Exists('$(PkgPath)/ConexBase/Schemas/UsrRealtyClassicTag/UsrRealtyClassicTag.cs')" />
+		<Compile Include="$(PkgPath)/ConexBase/Schemas/UsrRealtyVisitClassic/UsrRealtyVisitClassic.cs" Condition="Exists('$(PkgPath)/ConexBase/Schemas/UsrRealtyVisitClassic/UsrRealtyVisitClassic.cs')" />
 	</ItemGroup>
 </Project>

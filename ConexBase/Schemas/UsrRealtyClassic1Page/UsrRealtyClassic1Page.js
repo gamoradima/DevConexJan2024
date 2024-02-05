@@ -1,7 +1,21 @@
 define("UsrRealtyClassic1Page", [], function() {
 	return {
 		entitySchemaName: "UsrRealtyClassic",
-		attributes: {},
+		attributes: {
+			"UsrCommission": {
+				dependencies: [
+                    {
+                        columns: ["UsrPriceGBP", "UsrOfferType"],
+                        methodName: "calculateCommission"
+                    }
+                ]
+			},
+			"UsrOfferType": {
+				lookupListConfig: {
+					columns: ["UsrCommissionPercent"]
+				}
+			}
+		},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{
 			"Files": {
@@ -11,10 +25,74 @@ define("UsrRealtyClassic1Page", [], function() {
 					"masterColumn": "Id",
 					"detailColumn": "UsrRealtyClassic"
 				}
+			},
+			"UsrSchema8ff1a2b1Detail2198c551": {
+				"schemaName": "UsrRealtyVisitClassicDetailGrid",
+				"entitySchemaName": "UsrRealtyVisitClassic",
+				"filter": {
+					"detailColumn": "UsrParentRealty",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
-		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{
+			"UsrManager": {
+				"8e99df49-3685-4960-bcd2-31801bb453a4": {
+					"uId": "8e99df49-3685-4960-bcd2-31801bb453a4",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 1,
+					"baseAttributePatch": "Type",
+					"comparisonType": 3,
+					"autoClean": false,
+					"autocomplete": false,
+					"type": 0,
+					"value": "60733efc-f36b-1410-a883-16d83cab0980",
+					"dataValueType": 10
+				}
+			}
+		}/**SCHEMA_BUSINESS_RULES*/,
+		methods: {
+			calculateCommission: function() {
+				var price = this.get("UsrPriceGBP");
+				if (!price) {
+					price = 0;
+				}
+				var offerTypeObject = this.get("UsrOfferType");
+				var percent = 0;
+				if (offerTypeObject) {
+					percent = offerTypeObject.UsrCommissionPercent;
+				}
+				var commission = price * percent / 100;
+				this.set("UsrCommission", commission);
+			},
+			onEntityInitialized: function() {
+				this.callParent(arguments);
+				this.calculateCommission();
+			},
+			positiveValueValidator: function(value, column) {
+				var msg = "";
+				if (value < 0) {
+					msg = this.get("Resources.Strings.ValueMustBeGreaterThanZero");
+				}
+				return {
+					invalidMessage: msg
+				};
+			},
+			setValidationConfig: function() {
+				this.callParent(arguments);
+				this.addColumnValidator("UsrPriceGBP", this.positiveValueValidator);
+				this.addColumnValidator("UsrArea", this.positiveValueValidator);
+			},
+			onMyButtonClick: function() {
+				this.console.log("My button works! Hello world!");
+			},
+			getMyButtonEnabled: function() {
+				var name = this.get("UsrName");
+				var result = !!name;
+				return result;
+			}
+		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
@@ -70,6 +148,56 @@ define("UsrRealtyClassic1Page", [], function() {
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "FLOAT767fc568-8603-4a2e-9fb9-ccef0ec5af2f",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 3,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrCommission",
+					"tip": {
+						"content": {
+							"bindTo": "Resources.Strings.FLOAT767fc56886034a2e9fb9ccef0ec5af2fTip"
+						}
+					},
+					"enabled": false
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "MyButton",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "ProfileContainer"
+					},
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.MyButtonCaption"
+					},
+					"click": {
+						"bindTo": "onMyButtonClick"
+					},
+					"enabled": {
+						"bindTo": "getMyButtonEnabled"
+					},
+					"style": "blue"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -149,10 +277,10 @@ define("UsrRealtyClassic1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "NotesAndFilesTab",
+				"name": "Tab8efdb3b5TabLabel",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
+						"bindTo": "Resources.Strings.Tab8efdb3b5TabLabelTabCaption"
 					},
 					"items": [],
 					"order": 0
@@ -160,6 +288,31 @@ define("UsrRealtyClassic1Page", [], function() {
 				"parentName": "Tabs",
 				"propertyName": "tabs",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSchema8ff1a2b1Detail2198c551",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tab8efdb3b5TabLabel",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "NotesAndFilesTab",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
+					},
+					"items": [],
+					"order": 1
+				},
+				"parentName": "Tabs",
+				"propertyName": "tabs",
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -217,7 +370,7 @@ define("UsrRealtyClassic1Page", [], function() {
 				"operation": "merge",
 				"name": "ESNTab",
 				"values": {
-					"order": 1
+					"order": 2
 				}
 			}
 		]/**SCHEMA_DIFF*/
