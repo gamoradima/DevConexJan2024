@@ -5,6 +5,7 @@
 			<Item Name="Caption" Value="Edit page: &quot;Realty ClassicUI&quot;" />
 			<Item Name="LocalizableStrings.FLOAT767fc56886034a2e9fb9ccef0ec5af2fTip.Value" Value="Commission is calculated by price and offer type" />
 			<Item Name="LocalizableStrings.MyButtonCaption.Value" Value="PUSH ME!" />
+			<Item Name="LocalizableStrings.RunWebServiceButtonCaption.Value" Value="Run Service" />
 			<Item Name="LocalizableStrings.Tab8efdb3b5TabLabelTabCaption.Value" Value="Visits" />
 			<Item Name="LocalizableStrings.UsrSchema8ff1a2b1Detail2198c551DetailCaptionOnPage.Value" Value="Realty visits (ClassicUI)" />
 			<Item Name="LocalizableStrings.ValueMustBeGreaterThanZero.Value" Value="Value must be greater than zero" />

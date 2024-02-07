@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4f9817dd-ce51-49c5-8504-5f83fe957928",
+    "Name": "UsrBigPriceDemoProcess",
+    "ModifiedOnUtc": "\/Date(1707218699000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "BigPriceDemoProcess",
+    "DependsOn": []
+  }
+}
