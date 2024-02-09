@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sq-AL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="Shfaq dublikatin '{0}'" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="Përditësohu me të dhënat e rrjeteve sociale" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="Gabim në marrjen e konfigurimeve të sinkronizimit." />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Caption" Value="SetUpSynchronization" />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="Përcakto sinkronizimin e kontaktit" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Ndiq faqen" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="Sinkronizimi i kontakteve të MS Exchange" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="Sinkronizimi ka filluar. Ne do të njoftojmë kur do të përfundojë." />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="Konfigurimet e sinkronizimit nuk janë specifikuar." />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Caption" Value="SyncSettingsSetTipCaption" />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="Tani kontaktet e tua do të jenë gjithmonë në përditësim!&lt;br&gt;Nëse është e nevojshme &lt;a href=&quot;#&quot;&gt;ndrysho konfigurimet&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Ndalo së ndjekuri faqen" />
+		</Items>
+	</Group>
+</Resources>

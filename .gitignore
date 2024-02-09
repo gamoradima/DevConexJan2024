@@ -469,3 +469,15 @@ CrtFeatureToggling
 CrtMacrosBase
 CrtML
 CrtMLangContent
+
+CrtContactToLeadInC360
+CrtLead
+CrtLeadOppMgmtInC360
+CrtMLLeadConversion
+CrtMLLeadScoring
+CrtMLOpportunityScoring
+CrtOpportunity
+CrtOpportunityManagement
+CrtProductBase
+CrtTouchPointInC360
+CrtTouchPointInLead

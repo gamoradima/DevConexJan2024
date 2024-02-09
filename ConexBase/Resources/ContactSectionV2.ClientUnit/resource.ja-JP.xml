@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ja-JP">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DuplicatesActionCaptionPattern.Value" Value="複製の表示「{0」" />
+			<Item Name="LocalizableStrings.FillContactWithSocialNetworksDataActionCaption.Value" Value="ソーシャルネットワークデータの更新" />
+			<Item Name="LocalizableStrings.ReadSyncSettingsBadResponse.Value" Value="同期設定の受信中にエラーが発生しました。" />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Caption" Value="SetUpSynchronization" />
+			<Item Name="LocalizableStrings.SetUpSynchronization.Value" Value="連絡先の同期を設定" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="フィードをフォロー" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeContactsCaption.Value" Value="MS Exchangeの連絡先の同期" />
+			<Item Name="LocalizableStrings.SynchronizeExchangeSuccessMessage.Value" Value="同期が開始されました。完了したら通知します。" />
+			<Item Name="LocalizableStrings.SyncSettingsNotFoundMessage.Value" Value="同期設定が指定されていません。" />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Caption" Value="SyncSettingsSetTipCaption" />
+			<Item Name="LocalizableStrings.SyncSettingsSetTipCaption.Value" Value="これで連絡先は常に最新の状態に保たれます！&lt;br&gt;必要に応じて&lt;a href=&quot;#&quot;&gt;設定を変更&lt;/a&gt;してください" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="フィードフォローを解除" />
+		</Items>
+	</Group>
+</Resources>

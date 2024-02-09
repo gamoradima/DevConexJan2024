@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "fbc185df-8837-42b4-8f7a-5e0f9b5aa78a",
     "Name": "RunProcessFromSections_6ec238896977b26c3ae1f8ca8cc17add",
-    "ModifiedOnUtc": "\/Date(1707133646000)\/",
+    "ModifiedOnUtc": "\/Date(1707390647000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "60c0cee6-ecb8-4987-bb4a-053bc314ee8d",
@@ -17,13 +17,6 @@
         "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
       },
       {
-        "ColumnUId": "a9f680eb-bc67-4aac-919e-0ad9f1000690",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "SysSchemaUId",
-        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
-      },
-      {
         "ColumnUId": "4420cc5f-5a43-490b-b583-f8572ac29dce",
         "IsForceUpdate": false,
         "IsKey": false,
@@ -35,6 +28,13 @@
         "IsForceUpdate": false,
         "IsKey": true,
         "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "a9f680eb-bc67-4aac-919e-0ad9f1000690",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SysSchemaUId",
         "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
       },
       {

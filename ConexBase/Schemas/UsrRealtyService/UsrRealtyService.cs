@@ -7,6 +7,8 @@ namespace Terrasoft.Configuration
     using Terrasoft.Web.Common;
     using System;
     using System.Web.SessionState;
+    using Terrasoft.Core;
+
     [ServiceContract]
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]
     public class RealtyService : BaseService, IReadOnlySessionState
@@ -21,7 +23,16 @@ namespace Terrasoft.Configuration
             {
                 return -1;
             }
-            Select select = new Select(UserConnection)
+			UserConnection my_uc;
+			if (this.UserConnection != null)
+            {
+				my_uc = this.UserConnection; // in a normal web service call (authenticated request)
+			} else
+            {
+				my_uc = this.AppConnection.SystemUserConnection; // in case of an anonymous request
+            }
+
+			Select select = new Select(my_uc)
                 .Column(Func.Sum("UsrPriceGBP"))
                 .From("UsrRealtyClassic")
                 .Where("UsrTypeId").IsEqual(Column.Parameter(new Guid(realtyTypeId)))

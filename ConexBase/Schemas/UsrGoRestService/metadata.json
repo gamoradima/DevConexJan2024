@@ -1,0 +1,89 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ServiceSchemaManager",
+      "UId": "d9098b19-c9da-4e06-b960-eeedbb50d697",
+      "A2": "UsrGoRestService",
+      "A5": "e3b55088-2140-410e-86c6-9b439b43a15e",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "6ec23889-6977-b26c-3ae1-f8ca8cc17add",
+      "B8": "8.1.1.3635",
+      "IQ1": "https://gorest.co.in",
+      "IQ2": 1,
+      "IQ7": [],
+      "IQ4": [
+        {
+          "UId": "7fc14f79-b55c-49cd-a92a-0323c02d6847",
+          "A2": "UsrMethod1",
+          "A3": "d9098b19-c9da-4e06-b960-eeedbb50d697",
+          "A4": "d9098b19-c9da-4e06-b960-eeedbb50d697",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "099b9c62-ffe1-4a54-9414-a1db995e0402",
+                "A2": "UsrParameter1",
+                "IU1": "userid",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 2,
+                "IU5": {
+                  "IV1": "6203782",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 1,
+            "IT1": "/public/v2/users/{userid}"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "d3538f28-30e5-4f30-b2d3-09644e1c7507",
+                "A2": "UsrId",
+                "IU1": "$.id",
+                "IU2": "Integer",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "ca8730dd-33ea-459b-aedc-c0d964889818",
+                "A2": "UsrName",
+                "IU1": "$.name",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "958f930a-6b4d-4809-9b7d-7eea6e54aa04",
+                "A2": "UsrEmail",
+                "IU1": "$.email",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

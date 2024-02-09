@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2b356413-4e14-4bd0-bfcc-370c158fa6dc",
+    "Name": "UsrGorestAPITestProcess",
+    "ModifiedOnUtc": "\/Date(1707390634000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "GoREST API Test process",
+    "DependsOn": []
+  }
+}

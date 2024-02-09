@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "19b8981e-efa5-81fd-af3c-ef13a79e9e61",
+    "Name": "UsrCreateContactRealtyView",
+    "DBEngineType": 0,
+    "InstallType": 0,
+    "ModifiedOnUtc": "\/Date(1707473559000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

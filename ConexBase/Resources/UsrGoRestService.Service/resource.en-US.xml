@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="https://gorest.co.in" />
+			<Item Name="ServiceMethods.UsrMethod1.Caption" Value="get user data by id" />
+			<Item Name="ServiceMethods.UsrMethod1.Request.Parameters.UsrParameter1.Caption" Value="User_Id" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrEmail.Caption" Value="Email" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrId.Caption" Value="Id" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrName.Caption" Value="Name" />
+		</Items>
+	</Group>
+</Resources>

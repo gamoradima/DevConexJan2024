@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0d07534c-de91-4372-8889-1b80c6f934e4",
+    "Name": "UsrVwContactRealtyM",
+    "ModifiedOnUtc": "\/Date(1707473631000)\/",
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "UsrVwContactRealtyM",
+    "DependsOn": []
+  }
+}

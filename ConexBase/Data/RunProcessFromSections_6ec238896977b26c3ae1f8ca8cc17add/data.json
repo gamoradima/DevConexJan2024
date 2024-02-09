@@ -49,6 +49,31 @@
           "Value": 1
         }
       ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "edc19aa8-d6a2-4224-a764-da5963bb38d9"
+        },
+        {
+          "SchemaColumnUId": "18fd508a-8e32-454d-bd8a-82a9d4028ace",
+          "Value": "c1ea1dd9-28d9-4916-9866-9d9bb0cafabc"
+        },
+        {
+          "SchemaColumnUId": "4420cc5f-5a43-490b-b583-f8572ac29dce",
+          "Value": "065063c9-8180-e011-afbc-00155d04320c",
+          "DisplayValue": "Contacts Classic UI"
+        },
+        {
+          "SchemaColumnUId": "a9f680eb-bc67-4aac-919e-0ad9f1000690",
+          "Value": "2b356413-4e14-4bd0-bfcc-370c158fa6dc"
+        },
+        {
+          "SchemaColumnUId": "aadb966f-e2f2-4239-b56f-51ba5fdf0533",
+          "Value": 1
+        }
+      ]
     }
   ]
 }
