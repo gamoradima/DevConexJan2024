@@ -1,0 +1,16 @@
+﻿{
+  "Descriptor": {
+    "UId": "a1625f4a-6cd9-408a-9c01-0e649d8a3c85",
+    "Name": "UsrRealtyFreedomUI",
+    "Type": 1,
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrRealtyFreedomUI.csproj",
+    "DependsOn": [
+      {
+        "UId": "6ec23889-6977-b26c-3ae1-f8ca8cc17add",
+        "Name": "ConexBase",
+        "Type": 1
+      }
+    ]
+  }
+}

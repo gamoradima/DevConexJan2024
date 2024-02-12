@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty FreedomUI form page" />
+			<Item Name="LocalizableStrings.addRecord_0687lgb_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_kdf62kz_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_rpdobjk_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.AreaCannotBeLess.Value" Value="Area cannot be less than 10 sq m" />
+			<Item Name="LocalizableStrings.Button_rryrb2v_caption.Value" Value="Add visits" />
+			<Item Name="LocalizableStrings.ExpansionPanel_un37lxj_title.Value" Value="Realty visit (ClassicUI)" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_wustrdq_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_90o5635_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_wsps0da_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_wtyzlx3_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_ywrrvvf_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_to5jegq_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.NumberInput_my83ikd_label.Value" Value="Number" />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 0" />
+		</Items>
+	</Group>
+</Resources>

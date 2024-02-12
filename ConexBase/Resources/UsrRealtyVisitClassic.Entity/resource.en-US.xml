@@ -7,7 +7,6 @@
 			<Item Name="Columns.UsrParentRealty.Caption" Value="Parent realty" />
 			<Item Name="Columns.UsrPotentialCustomer.Caption" Value="Potential customer" />
 			<Item Name="Columns.UsrVisitDateTime.Caption" Value="Visit date and time" />
-			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
 		</Items>
 	</Group>
 </Resources>

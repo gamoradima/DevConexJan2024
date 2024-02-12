@@ -2,20 +2,13 @@
   "Descriptor": {
     "UId": "748a1417-5ffc-323d-9b02-87f440494e07",
     "Name": "UsrRealtyTypeClassic",
-    "ModifiedOnUtc": "\/Date(1706784306000)\/",
+    "ModifiedOnUtc": "\/Date(1707737435000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "a91e06cd-f160-4e2f-8ca2-476cced15cad",
       "Name": "UsrRealtyTypeClassic"
     },
     "Columns": [
-      {
-        "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
-        "IsForceUpdate": true,
-        "IsKey": false,
-        "ColumnName": "CreatedOn",
-        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
-      },
       {
         "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
         "IsForceUpdate": true,
@@ -29,6 +22,20 @@
         "IsKey": false,
         "ColumnName": "UsrCode",
         "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "e86949e7-1ee6-4277-8e20-982a9c673fdb",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "RecordInactive",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "CreatedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
       },
       {
         "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",

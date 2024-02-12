@@ -366,11 +366,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="FeatureToggling">
-			<HintPath>$(RelativePkgFolderPath)/FeatureToggling/$(StandalonePackageAssemblyPath)/FeatureToggling.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="Finesse">
 			<HintPath>$(RelativePkgFolderPath)/Finesse/$(StandalonePackageAssemblyPath)/Finesse.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -378,6 +373,11 @@
 		</Reference>
 		<Reference Include="CrtNextStep">
 			<HintPath>$(RelativePkgFolderPath)/CrtNextStep/$(StandalonePackageAssemblyPath)/CrtNextStep.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="FeatureToggling">
+			<HintPath>$(RelativePkgFolderPath)/FeatureToggling/$(StandalonePackageAssemblyPath)/FeatureToggling.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -426,6 +426,11 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtProductivityApp">
+			<HintPath>$(RelativePkgFolderPath)/CrtProductivityApp/$(StandalonePackageAssemblyPath)/CrtProductivityApp.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtMarketingInC360">
 			<HintPath>$(RelativePkgFolderPath)/CrtMarketingInC360/$(StandalonePackageAssemblyPath)/CrtMarketingInC360.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -436,13 +441,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtProductivityApp">
-			<HintPath>$(RelativePkgFolderPath)/CrtProductivityApp/$(StandalonePackageAssemblyPath)/CrtProductivityApp.dll</HintPath>
+		<Reference Include="CrtOpportunity">
+			<HintPath>$(RelativePkgFolderPath)/CrtOpportunity/$(StandalonePackageAssemblyPath)/CrtOpportunity.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtOpportunity">
-			<HintPath>$(RelativePkgFolderPath)/CrtOpportunity/$(StandalonePackageAssemblyPath)/CrtOpportunity.dll</HintPath>
+		<Reference Include="CrtProductBase">
+			<HintPath>$(RelativePkgFolderPath)/CrtProductBase/$(StandalonePackageAssemblyPath)/CrtProductBase.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -453,11 +458,6 @@
 		</Reference>
 		<Reference Include="CrtMLOpportunityScoring">
 			<HintPath>$(RelativePkgFolderPath)/CrtMLOpportunityScoring/$(StandalonePackageAssemblyPath)/CrtMLOpportunityScoring.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtProductBase">
-			<HintPath>$(RelativePkgFolderPath)/CrtProductBase/$(StandalonePackageAssemblyPath)/CrtProductBase.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -491,6 +491,11 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtTouchPointInLead">
+			<HintPath>$(RelativePkgFolderPath)/CrtTouchPointInLead/$(StandalonePackageAssemblyPath)/CrtTouchPointInLead.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtLeadOppMgmtInC360">
 			<HintPath>$(RelativePkgFolderPath)/CrtLeadOppMgmtInC360/$(StandalonePackageAssemblyPath)/CrtLeadOppMgmtInC360.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -503,11 +508,6 @@
 		</Reference>
 		<Reference Include="CrtOpportunityInC360">
 			<HintPath>$(RelativePkgFolderPath)/CrtOpportunityInC360/$(StandalonePackageAssemblyPath)/CrtOpportunityInC360.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtTouchPointInLead">
-			<HintPath>$(RelativePkgFolderPath)/CrtTouchPointInLead/$(StandalonePackageAssemblyPath)/CrtTouchPointInLead.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
